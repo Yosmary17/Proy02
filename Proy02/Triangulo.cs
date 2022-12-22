@@ -12,25 +12,29 @@ namespace Proy02
         private float _lado3;
         private float _perimetro;
         public Triangulo(){}
-        public Triangulo(string nombre, float lado1, float lado2, float _lado3) :base()
+        public Triangulo(string nombre, float lado1, float lado2, float lado3) :base(nombre)
         {
-            _lado1 = lado1;
-            _lado2 = lado2;
-            _lado3 = _lado3;
+            Lado1 = lado1;
+            Lado2 = lado2;
+            Lado3 = lado3;
 
         }
 
+        public float Lado1 { get => _lado1; set => _lado1 = value; }
+        public float Lado2 { get => _lado2; set => _lado2 = value; }
+        public float Lado3 { get => _lado3; set => _lado3 = value; }
+
         public override float getPerimetro()
         {
-            _perimetro = _lado1 + _lado2 + _lado3;
+            _perimetro = Lado1 + Lado2 + Lado3;
             return _perimetro;
         }
         public override float getSize()
         {
             float s =_perimetro/2;
-            float temp = s *(s-_lado1)*(s-_lado2)*(s-_lado3);
-            double Area =Math.Sqrt(temp); 
-          //  this.Size =Convert.ToSingle(area);
+            float temp = s *(s-Lado1)*(s-Lado2)*(s-Lado3);
+            double area =Math.Sqrt(temp); 
+            this.Size =Convert.ToSingle(area);
         
             return this.Size;
         }
