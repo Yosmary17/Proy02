@@ -1,0 +1,15 @@
+C:\Users\yasis\varios\proy02\Proy02\obj\Debug\net6.0\Proy02.csproj.AssemblyReference.cache
+C:\Users\yasis\varios\proy02\Proy02\obj\Debug\net6.0\Proy02.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\yasis\varios\proy02\Proy02\obj\Debug\net6.0\Proy02.AssemblyInfoInputs.cache
+C:\Users\yasis\varios\proy02\Proy02\obj\Debug\net6.0\Proy02.AssemblyInfo.cs
+C:\Users\yasis\varios\proy02\Proy02\obj\Debug\net6.0\Proy02.csproj.CoreCompileInputs.cache
+C:\Users\yasis\varios\proy02\Proy02\bin\Debug\net6.0\Proy02.exe
+C:\Users\yasis\varios\proy02\Proy02\bin\Debug\net6.0\Proy02.deps.json
+C:\Users\yasis\varios\proy02\Proy02\bin\Debug\net6.0\Proy02.runtimeconfig.json
+C:\Users\yasis\varios\proy02\Proy02\bin\Debug\net6.0\Proy02.dll
+C:\Users\yasis\varios\proy02\Proy02\bin\Debug\net6.0\Proy02.pdb
+C:\Users\yasis\varios\proy02\Proy02\obj\Debug\net6.0\Proy02.dll
+C:\Users\yasis\varios\proy02\Proy02\obj\Debug\net6.0\refint\Proy02.dll
+C:\Users\yasis\varios\proy02\Proy02\obj\Debug\net6.0\Proy02.pdb
+C:\Users\yasis\varios\proy02\Proy02\obj\Debug\net6.0\Proy02.genruntimeconfig.cache
+C:\Users\yasis\varios\proy02\Proy02\obj\Debug\net6.0\ref\Proy02.dll

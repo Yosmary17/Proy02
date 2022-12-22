@@ -19,7 +19,7 @@ namespace Proy02
 
             public Figura()// Constructor inicial, recomendado en blanco
             {
-                _id=Guid.NewGuid().ToString();
+                _id = Guid.NewGuid().ToString();
             } 
             public Figura(string nombreFigura)// Constructor con una firma diferente
             {
@@ -30,22 +30,15 @@ namespace Proy02
                 _filleColor = WHITE;
                 
             }
+            public string Id {get {return _id;}} // Ojo se requiere set en caso de carga de un Json
             public string Nombre
             {
-                get{
-                    return _nombre;
-                }
-
-                set 
-                {
-                    _nombre =value;
-                }
+                get{ return _nombre; }
+                set {_nombre =value; }
             }
             public string LineColor
             {
-                get{
-                    return _lineColor;
-                }
+                get{ return _lineColor; }
 
                 set 
                 {
@@ -55,13 +48,11 @@ namespace Proy02
                 if(m.Success)
                     _lineColor=value;
                 else
-                    throw new ArgumentException("Color mal definido. Verifique");
+                  throw new ArgumentException("Color mal definido. Verifique");
                 }
             }
-            public virtual void getSize()
-            {
-
-            }
+             public float Size{ get => _size; set => _size = value; }
+            
             public Figura(string nombreFigura, string tipoFigura, string colorLinea, string colorRelleno)// Constructor con una firma diferente
             {
                 _id=Guid.NewGuid().ToString();
@@ -71,6 +62,9 @@ namespace Proy02
                 _filleColor = colorRelleno;
             }
             public void dibujar(){ }
+
+            public abstract float getSize();
+            
            
     }
 }

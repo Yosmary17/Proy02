@@ -5,8 +5,6 @@ using System.Threading.Tasks;
 
 namespace Proy02
 {
-    public class Figura3D : Figura
-    {
-        
-    }
+    //public class Figura3D : Figura
+    
 }
