@@ -51,8 +51,7 @@ namespace Proy02
                   throw new ArgumentException("Color mal definido. Verifique");
                 }
             }
-             public float Size{ get => _size; set => _size = value; }
-            
+            public float Size{ get => _size; set => _size = value; }
             public Figura(string nombreFigura, string tipoFigura, string colorLinea, string colorRelleno)// Constructor con una firma diferente
             {
                 _id=Guid.NewGuid().ToString();
@@ -62,7 +61,6 @@ namespace Proy02
                 _filleColor = colorRelleno;
             }
             public void dibujar(){ }
-
             public abstract float getSize();
             
            

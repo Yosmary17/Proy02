@@ -5,7 +5,7 @@
         private static void Main(string[] args)
         {
 
-           /*  Cuadrado  cuad = new Cuadrado();
+            Cuadrado  cuad = new Cuadrado();
             cuad.Lado = 10;
             cuad.Nombre="Mi cuadrado";
             cuad.LineColor= "#F00000";
@@ -13,7 +13,7 @@
             Console.WriteLine($"ID: {cuad.Id} ");
             Console.WriteLine($"Lado: {cuad.Lado} ");
             Console.WriteLine($"Area: {cuad.getSize()} ");
-            Console.WriteLine($"Perimetro: {cuad.getPerimetro()}");*/
+            Console.WriteLine($"Perimetro: {cuad.getPerimetro()}");
        
             Triangulo tri= new Triangulo();
             tri.Nombre =" Mi triangulo";
@@ -27,6 +27,16 @@
             Console.WriteLine($"Lado 3: {tri.Lado3} ");
             Console.WriteLine($"Perimetro: {tri.getPerimetro()}");
             Console.WriteLine($"Area: {tri.getSize()} ");
+
+            List<Figura2D> milista =new List<Figura2D>();
+            milista.Add(cuad);
+            milista.Add(tri);
+            foreach(var item in milista) // Polimorfismo por Inclusion
+            {
+                Console.WriteLine($"Nombre : {item.Nombre} ");
+                Console.WriteLine($"Tamaño: {item.getSize()} ");
+                Console.WriteLine($"Perimetro : {item.getPerimetro()} ");
+            }        
         } 
 
     }
